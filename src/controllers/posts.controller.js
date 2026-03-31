@@ -1,7 +1,7 @@
 const {insertPost} = require('../models/posts.model');
 
-function create(eq, res){
+function create(req, res){
     let body = req.body;
     insertPost(body);
 }
-module.exports = (create)
+module.exports = {create}
