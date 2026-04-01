@@ -1,5 +1,5 @@
-const app = require('./app');
+const app = require('./app')
 
-app.listen(3000, () => {
-  console.log('O servidor está em execução em http://localhost:3000');
-});
+app.listen(3001, ()=>{
+    console.log(`Servidor em execução em http://localhost:3001`);
+})
